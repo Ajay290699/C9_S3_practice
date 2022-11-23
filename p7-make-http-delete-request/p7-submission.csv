@@ -1,0 +1,16 @@
+"HTTP Request			",Delete movie by id 501,Delete movie by id 550
+"URL	: http://localhost:3000/movies/501			",,
+"METHOD	: delete",,
+"HTTP Response				",,
+"Status Code		: 200	",,
+"Status Message		:ok ",,
+"Body	",,
+
+
+"URL	: http://localhost:3000/movies/501			",,
+"METHOD	: delete",,
+"HTTP Response				",,
+"Status Code		: 404	",,
+"Status Message		: not found",,
+"Body	",,
+

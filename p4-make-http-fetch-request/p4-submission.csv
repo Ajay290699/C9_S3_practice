@@ -1,0 +1,51 @@
+HTTP Request,For All Movies,For Movie By Id,For Movie By Title,For Movie By Genre,For Movie By Genre and Year of Release,For Movie with Invalid Id
+for all Movies:-
+
+URL- http://localhost:3000/movies
+METHOD- Get
+,,,,,,
+HTTP Response,,,,,,
+Status Code-200 
+Status Message-200 OK
+Body,,,,,,
+
+
+URL-http://localhost:3000/movies/502
+METHOD-Get
+,,,,,,
+HTTP Response,,,,,,
+Status Code-200
+Status Message-200 OK
+Body,,,,,,
+
+URL-http://localhost:3000/movies?movieTitle=365 Days
+METHOD-Get
+,,,,,,
+HTTP Response,,,,,,
+Status Code-       200
+Status Message-200 OK
+Body,,,,,,
+
+URL-http://localhost:3000/movies?genre=Action
+METHOD-Get
+,,,,,,
+HTTP Response,,,,,,
+Status Code-200
+Status Message-200 OK
+Body,,,,,,
+
+URL-http://localhost:3000/movies?genre=Action&year=2022
+METHOD-Get
+,,,,,,
+HTTP Response,,,,,,
+Status Code-200
+Status Message-200 OK
+Body,,,,,,
+
+URL-http://localhost:3000/movies/600
+METHOD-Get
+,,,,,,
+HTTP Response,,,,,,
+Status Code-404
+Status Message-Not Found
+Body,,,,,,
